@@ -29,7 +29,7 @@ function pegaValues(){
     console.log("rodou");
     
 };
-window.onload = function(){
+window.onchange = function () {
     id = setInterval(pegaValues, 1000);
 }
 botao.onclick = clearInterval(id);
